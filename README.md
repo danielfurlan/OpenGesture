@@ -1,6 +1,6 @@
 # OpenGesture
 
-This is an algorithm that links 2 other algorithms ([Openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) and [ofxGVF](https://github.com/bcaramiaux/ofxGVF)) for gesture recognition.
+This is an algorithm that links 2 other algorithms ([Openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) and [ofxGVF](https://github.com/bcaramiaux/ofxGVF)) for gesture recognition. It **doesn't have any GUI**! Only **command line** interface.
 
 While Openpose delivers a real-time human pose estimation, ofxGVF can instantaneously adapt and recognize the gesture input for 1 point (either 2D or 3D)
 
