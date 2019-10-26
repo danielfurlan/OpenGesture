@@ -6,7 +6,7 @@ While Openpose delivers a real-time human pose estimation, ofxGVF can instantane
 
 So far, this code doesn't do it in real-time. 
 
-User may first read the video of interest with Openpose and save the .json files (from Openpose) for ulterior analyses of ofxGVF.
+User may first read the video of interest with Openpose and save the .json files (from Openpose) for ulterior analyses with ofxGVF.
 
 Files for templates are stored in the folder "openpose/output/coco/", while files for recognition should be stored in the folder "openpose/gesto/coco/".
 
@@ -19,9 +19,12 @@ Following (gesture to be recognized):
 
 thi mode will make inference of the gesture you want to recognize. Again, you must specify the folder path with the .json files storing the gesture output by Openpose. In this repository, examples are given by the path "openpose/gesto/coco/" + "claudio/bracciaG/braccia1x" or + "riccardo/bracciaG/braccia1x".
 
-Attention: you should alter the path for the directory in the main.cpp file. Otherwhise the algorithm will not find the .json files to read.
+# Attention: 
+you should alter the path for the directory in the main.cpp file. Otherwhise the algorithm will not find the .json files to read.
 
 Also, the filesystem.hpp may need its whole path declared at the very beginning of the script:
 #include <filesystem.hpp> // line 14
 
+# OrderData
 
+this script is for ordering the X and Y points from the .json files for dataset creation. It outputs a .txt file with "n" examples of a concatenated vector [x] + [y]. It aims at creating a dataset to feed some a machine learning model or to whatever purpose it may have. 
