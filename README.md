@@ -1,6 +1,6 @@
 # OpenGesture
 
-This is an algorithm that links 2 other algorithms (Openpose and ofxGVF) for gesture recognition.
+This is an algorithm that links 2 other algorithms ([Openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) and [ofxGVF](https://github.com/bcaramiaux/ofxGVF)) for gesture recognition.
 
 While Openpose delivers a real-time human pose estimation, ofxGVF can instantaneously adapt and recognize the gesture input for 1 point (either 2D or 3D)
 
@@ -31,5 +31,5 @@ this script is for ordering the X and Y points from the .json files for dataset 
 
 ## Compiling it
 
-you may use the following flags for python library location when compiling the 'main.cpp':
-'g++ -std=c++11 main.cpp -o main -I/usr/include/x86_64-linux-gnu -lpython3.5m'
+you may use the following flags for python library location when compiling the `main.cpp`:
+`g++ -std=c++11 main.cpp -o main -I/usr/include/x86_64-linux-gnu -lpython3.5m`
