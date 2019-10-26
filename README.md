@@ -28,3 +28,8 @@ Also, the filesystem.hpp may need its whole path declared at the very beginning 
 # OrderData
 
 this script is for ordering the X and Y points from the .json files for dataset creation. It outputs a .txt file with "n" examples of a concatenated vector [x] + [y]. It aims at creating a dataset to feed some a machine learning model or to whatever purpose it may have. 
+
+## Compiling it
+
+you may use the following flags for python library location when compiling the 'main.cpp':
+'g++ -std=c++11 main.cpp -o main -I/usr/include/x86_64-linux-gnu -lpython3.5m'
