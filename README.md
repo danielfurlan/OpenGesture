@@ -2,7 +2,9 @@
 
 This is an algorithm that links 2 other algorithms ([Openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) and [ofxGVF](https://github.com/bcaramiaux/ofxGVF)) for gesture recognition. It **doesn't have any GUI**! Only **command line** interface.
 
-While Openpose delivers a real-time human pose estimation, ofxGVF can instantaneously adapt and recognize the gesture input for 1 point (either 2D or 3D)
+While Openpose delivers a real-time human pose estimation, ofxGVF can instantaneously adapt and recognize the gesture input for 1 point (either 2D or 3D).
+
+To enrich the gesture recognition, we extended the ofxGVF output for as many points as the user wants to define the gesture (instead of just 1 point, one may define a gesture looking at 2, say *wrist* and *elbow* keypoints)
 
 So far, this code doesn't do it in real-time. 
 
