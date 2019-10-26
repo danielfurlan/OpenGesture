@@ -1,4 +1,4 @@
-# OpenGesture
+# openGest
 
 This is an algorithm that links 2 other algorithms ([Openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) and [ofxGVF](https://github.com/bcaramiaux/ofxGVF)) for gesture recognition. It **doesn't have any GUI**! Only **command line** interface.
 
